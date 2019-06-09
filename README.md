@@ -3,7 +3,7 @@
 The objective of the Logs Analysis Project is to to build an internal reporting tool that will use information from the database to discover what kind of articles the site's readers like. This is a Python program using the psycopg2 module to connect to the PostgreSQL database. 
 
 # Requirements
-- Python 2.7.x or greater - The code uses ver 2.7.10
+- Python 2.7.x or greater - The code uses version 2.7.10
 - [Vagrant](https://www.vagrantup.com/) - A virtual environment builder and manager
 - [VirtualBox](https://www.virtualbox.org/) - An open source virtualiztion product.
 - Git - An open source version control system
