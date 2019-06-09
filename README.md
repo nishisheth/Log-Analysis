@@ -10,7 +10,7 @@ The objective of the Logs Analysis Project is to to build an internal reporting 
 
 # How to run this tool?
 
-**1.** Download the VM configuration or clone the repoaitory from [here](https://github.com/udacity/fullstack-nanodegree-vm). Note the path where you downloaded it as it will be used in other steps.
+**1.** Download the VM configuration or clone the repository from [here](https://github.com/udacity/fullstack-nanodegree-vm). Note the path where you downloaded it as it will be used in other steps.
 
 **2.** Download the database from [this link](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
 
@@ -18,7 +18,7 @@ Put the file called `newsdata.sql` into the `vagrant/` directory, which is share
 
 **3.** Download the python programs (`Reportingtool.py`) from the current folder. Then, copy them to the `vagrant/` folder.
 
-**4.** Navigate to the Udacity folder in your bash interface and inside that cd into the vagrant folder.
+**4.** Navigate to the downloaded folder in your terminal and inside that cd into the vagrant folder.
 
 **5.** Open Git Bash and launch the VM with `vagrant up`.
 
@@ -28,7 +28,7 @@ Put the file called `newsdata.sql` into the `vagrant/` directory, which is share
 
 **8.** Load the database by using `psql -d news -f newsdata.sql`.
 
-**9.** To explore the databse by using `psql -d news`.
+**9.** To explore the databse by using `psql -d news`. (Note: Use `\q` or (ctrl+D) to exit from sql prompt.)
 
 **10.** Run the program using `python Reportingtool.py`. You should see output of reporting tools as shown in `reportingtool_output.txt` file. This tool runs queries to get data for below questions.
 
